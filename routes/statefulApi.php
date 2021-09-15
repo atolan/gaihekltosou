@@ -13,8 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-
-
 Route::prefix('stub')->group(function () {
     Route::prefix('user')->group(function () {
         Route::get('show', 'Stub\UserController@show');
